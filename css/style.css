@@ -10,8 +10,6 @@
   border: 1px solid white;
 }
 
-
-
 .debug .h_500{
   height: 500px;
 }
@@ -166,5 +164,36 @@ header .jumbotron h1 {
   }
 }
 /* / loghi */
+
+/* deploy */
+#deploy h2,h3 {
+  color: #031c4e;
+}
+
+#deploy,
+#deploy ul li a{
+  color: #b5bcc9;
+}
+
+#deploy ul {
+  padding-left: 5px;
+}
+
+#deploy ul li {
+  padding-bottom: 10px;
+}
+
+#deploy ul li:last-child {
+  padding-bottom: 0;
+}
+
+#deploy ul li a{
+  text-decoration: none;
+}
+
+#deploy .left {
+  border-left: 1px solid #b5bcc9;
+}
+/* / deploy */
 
 /* / main */
