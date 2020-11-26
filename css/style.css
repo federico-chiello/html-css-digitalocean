@@ -194,6 +194,19 @@ header .jumbotron h1 {
 #deploy .left {
   border-left: 1px solid #b5bcc9;
 }
+
+#deploy .title {
+  padding: 40px 0;
+}
+
+.h-150 {
+  height: 150px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 /* / deploy */
 
 /* / main */
