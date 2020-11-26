@@ -1,0 +1,170 @@
+/* debug */
+.debug .row [class*='col-']{
+  background-color: lightblue;
+  height: 180px;
+  border: 1px solid black;
+}
+
+.debug .row .row [class*='col-']{
+  background-color: lightgreen;
+  border: 1px solid white;
+}
+
+
+
+.debug .h_500{
+  height: 500px;
+}
+.debug .h_400{
+  height: 400px;
+}
+.debug .h_300{
+  height: 300px;
+}
+/* / debug */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* classi riutilizzabili */
+.bg_white {
+  background-color: white;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ptb-15 {
+  padding: 15px;
+}
+/* / classi riutilizzabili */
+
+/* header */
+header .navbar {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+header .navbar img {
+  width: 200px;
+}
+
+header .hamburger {
+  color: #2787fd;
+}
+
+header ul li a {
+  color: #122958;
+}
+
+header ul li a:hover {
+  text-decoration: none;
+  color: #122958;
+}
+
+header #sign {
+  color: #2787fd;
+  padding: 5px;
+  border: 1px solid #2787fd;
+  border-radius: 5px;
+}
+
+.jumbotron {
+  background-image: url('../img/bg-home-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 30px;
+  color: #122958;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+header .jumbotron h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.jumbotron .sign-up {
+  position: relative;
+}
+
+.jumbotron-right {
+  border-radius: 5px;
+}
+
+.jumbotron #now {
+  color: #2787fd;
+}
+
+.jumbotron #google {
+  width: 20px;
+  text-align: left;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.jumbotron input,
+.jumbotron button {
+  margin-bottom: 5px;
+}
+/* / header */
+
+/* main */
+/* loghi */
+#loghi {
+  background-color: #f3f5f9;
+}
+
+#loghi h3 {
+  text-transform: uppercase;
+  color: #919aaf;
+  padding:40px 0 30px;
+}
+
+#loghi .box {
+  height: 150px;
+  width: 100%;
+}
+
+#loghi img {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loghi .view {
+  padding: 20px 0 40px;
+}
+
+#loghi a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+@media screen  and (max-width:992px) {
+  #loghi img {
+    width: 120px;
+    padding-right: 5px;
+  }
+}
+
+@media screen  and (max-width:768px) {
+  #loghi img {
+    width: 180px;
+  }
+}
+/* / loghi */
+
+/* / main */
