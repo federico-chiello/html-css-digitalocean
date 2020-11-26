@@ -166,6 +166,10 @@ header .jumbotron h1 {
 /* / loghi */
 
 /* deploy */
+#deploy {
+  padding-bottom: 40px;
+}
+
 #deploy h2,h3 {
   color: #031c4e;
 }
@@ -199,6 +203,10 @@ header .jumbotron h1 {
   padding: 40px 0;
 }
 
+#deploy .title p {
+  font-size: 20px;
+}
+
 .h-150 {
   height: 150px;
 }
@@ -206,7 +214,22 @@ header .jumbotron h1 {
 .mb-20 {
   margin-bottom: 20px;
 }
-
 /* / deploy */
+
+/* designed */
+#designed h2,h3 {
+  color: #031c4e;
+}
+
+#designed p {
+  font-size: 20px;
+  color: #b5bcc9;
+}
+
+#designed img {
+  width: 500px;
+}
+
+/* / designed */
 
 /* / main */
