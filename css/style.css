@@ -329,4 +329,10 @@ header .jumbotron h1 {
 }
 /* / service */
 
+/* development */
+.rocker p {
+  font-size: 25px;
+}
+/* / development */
+
 /* / main */
