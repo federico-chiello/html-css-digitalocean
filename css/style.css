@@ -377,6 +377,18 @@ header .jumbotron h1 {
 #development .circle {
   padding: 30px 0 50px;
 }
+
+@media screen and (max-width: 768px){
+  #development .rocker::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #development .rocker::after {
+    display: none;
+  }
+}
 /* / development */
 
 /* / main */
