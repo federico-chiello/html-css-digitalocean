@@ -30,6 +30,10 @@ body {
   color: white;
 }
 
+.ms_blue {
+  color: #002ca7;
+}
+
 .bg_white {
   background-color: white;
 }
@@ -57,8 +61,17 @@ body {
 #deploy a,
 #designe a,
 #features a,
-#service a {
+#service a,
+#development a {
   text-decoration: none;
+}
+
+.circle i {
+  color: #2787fd;
+}
+
+h2,h3 {
+  color: #031c4e;
 }
 
 .uppercase {
@@ -190,10 +203,6 @@ header .jumbotron h1 {
   padding-bottom: 40px;
 }
 
-#deploy h2,h3 {
-  color: #031c4e;
-}
-
 #deploy,
 #deploy ul li a{
   color: #b5bcc9;
@@ -266,15 +275,6 @@ header .jumbotron h1 {
   color: #031c4e;
   padding-left: 10px;
 }
-
-#designed .circle i:first-child {
-  color: #2787fd;
-}
-
-#designed .circle i {
-  color: #2787fd;
-}
-
 /* / designed */
 
 /* features */
@@ -301,6 +301,7 @@ header .jumbotron h1 {
 }
 
 #service h2{
+  color: white;
   padding-bottom: 10px;
 }
 #service a {
@@ -330,8 +331,21 @@ header .jumbotron h1 {
 /* / service */
 
 /* development */
-.rocker p {
+#development img {
+  width: 50%;
+  padding: 50px 0 20px;
+}
+
+#development .rocker p {
   font-size: 25px;
+}
+
+#development .rocker .name {
+  color: #031c4e;
+}
+
+#development .rocker .read {
+  padding: 20px 0 60px;
 }
 /* / development */
 
