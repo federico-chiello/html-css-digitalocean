@@ -30,6 +30,10 @@ body {
   background-color: white;
 }
 
+.bg_grey {
+  background-color: #f3f5f9;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -119,9 +123,6 @@ header .jumbotron h1 {
 
 /* main */
 /* loghi */
-#loghi {
-  background-color: #f3f5f9;
-}
 
 #loghi h3 {
   text-transform: uppercase;
@@ -217,6 +218,10 @@ header .jumbotron h1 {
 /* / deploy */
 
 /* designed */
+#designed {
+  padding: 50px 0 40px;
+}
+
 #designed h2,h3 {
   color: #031c4e;
 }
@@ -224,16 +229,17 @@ header .jumbotron h1 {
 #designed .build {
   font-size: 20px;
   color: #b5bcc9;
+  padding-bottom: 50px;
 }
 
 #designed img {
-  width: 500px;
+  width: 70%;
   padding-bottom: 10px;
 }
 
 .arrow-left,
 .arrow-right {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .arrow-left {
