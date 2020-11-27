@@ -50,6 +50,10 @@ body {
   background-color: #002ca7;
 }
 
+.bg_darkblue {
+  background-color: #031c4e;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -407,7 +411,15 @@ header .jumbotron h1 {
 /* / main */
 
 /* footer */
+footer {
+  padding: 60px 0;
+}
+
 footer img {
   width: 60px;
+}
+
+footer h4 {
+  color: white;
 }
 /* / footer */
