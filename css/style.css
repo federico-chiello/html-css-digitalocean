@@ -56,8 +56,13 @@ body {
 #loghi a,
 #deploy a,
 #designe a,
-#features a {
+#features a,
+#service a {
   text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 /* / classi riutilizzabili */
 
