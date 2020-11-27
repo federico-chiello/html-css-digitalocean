@@ -26,12 +26,20 @@ body {
 }
 
 /* classi riutilizzabili */
+.ms_white {
+  color: white;
+}
+
 .bg_white {
   background-color: white;
 }
 
 .bg_grey {
   background-color: #f3f5f9;
+}
+
+.bg_blue {
+  background-color: #002ca7;
 }
 
 .mb-10 {
