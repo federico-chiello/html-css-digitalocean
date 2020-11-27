@@ -407,5 +407,7 @@ header .jumbotron h1 {
 /* / main */
 
 /* footer */
-
+footer img {
+  width: 60px;
+}
 /* / footer */
