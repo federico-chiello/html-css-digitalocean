@@ -134,7 +134,7 @@ header .jumbotron h1 {
 #loghi h3 {
   text-transform: uppercase;
   color: #919aaf;
-  padding:40px 0 30px;
+  padding:40px 0 20px;
 }
 
 #loghi .box {
@@ -277,6 +277,14 @@ header .jumbotron h1 {
   height: 50px;
 }
 
+.pt-40 {
+  padding-top: 40px;
+}
 /* / features */
+
+/* service */
+
+
+/* / service */
 
 /* / main */
