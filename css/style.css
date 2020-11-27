@@ -34,6 +34,10 @@ body {
   color: #002ca7;
 }
 
+.ms_skyblue {
+  color: #2787fd;
+}
+
 .bg_white {
   background-color: white;
 }
@@ -391,4 +395,17 @@ header .jumbotron h1 {
 }
 /* / development */
 
+/* get */
+#get {
+  padding: 60px 0 40px;
+}
+
+#get h2 {
+  padding-bottom: 20px;
+}
+/* / get */
 /* / main */
+
+/* footer */
+
+/* / footer */
