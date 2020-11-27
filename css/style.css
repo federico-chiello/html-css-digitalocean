@@ -221,13 +221,21 @@ header .jumbotron h1 {
   color: #031c4e;
 }
 
-#designed p {
+#designed .build {
   font-size: 20px;
   color: #b5bcc9;
 }
 
 #designed img {
   width: 500px;
+}
+
+#designed .circle i:first-child {
+  color: #2787fd;
+}
+
+#designed .circle i {
+  border: #2787fd;
 }
 
 /* / designed */
