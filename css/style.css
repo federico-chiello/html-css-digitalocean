@@ -44,6 +44,13 @@ body {
 .ptb-15 {
   padding: 15px;
 }
+
+#loghi a,
+#deploy a,
+#designe a,
+#features a {
+  text-decoration: none;
+}
 /* / classi riutilizzabili */
 
 /* header */
@@ -148,7 +155,6 @@ header .jumbotron h1 {
 }
 
 #loghi a {
-  text-decoration: none;
   font-size: 15px;
 }
 
@@ -159,7 +165,7 @@ header .jumbotron h1 {
   }
 }
 
-@media screen  and (max-width:768px) {
+@media screen  and (max-width:767px) {
   #loghi img {
     width: 180px;
   }
@@ -190,10 +196,6 @@ header .jumbotron h1 {
 
 #deploy ul li:last-child {
   padding-bottom: 0;
-}
-
-#deploy ul li a{
-  text-decoration: none;
 }
 
 #deploy .left {
@@ -261,5 +263,20 @@ header .jumbotron h1 {
 }
 
 /* / designed */
+
+/* features */
+#features {
+  padding: 40px 0;
+}
+
+#features h2 {
+  color: #031c4e;
+}
+
+#features img {
+  height: 50px;
+}
+
+/* / features */
 
 /* / main */
