@@ -228,6 +228,22 @@ header .jumbotron h1 {
 
 #designed img {
   width: 500px;
+  padding-bottom: 10px;
+}
+
+.arrow-left,
+.arrow-right {
+  font-size: 25px;
+}
+
+.arrow-left {
+  color: #b5bcc9;
+  padding-right: 10px;
+}
+
+.arrow-right {
+  color: #031c4e;
+  padding-left: 10px;
 }
 
 #designed .circle i:first-child {
@@ -235,7 +251,7 @@ header .jumbotron h1 {
 }
 
 #designed .circle i {
-  border: #2787fd;
+  color: #2787fd;
 }
 
 /* / designed */
