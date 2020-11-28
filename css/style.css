@@ -38,6 +38,10 @@ body {
   color: #2787fd;
 }
 
+.ms_grey {
+  color: grey;
+}
+
 .bg_white {
   background-color: white;
 }
@@ -65,12 +69,7 @@ body {
   padding: 15px;
 }
 
-#loghi a,
-#deploy a,
-#designe a,
-#features a,
-#service a,
-#development a {
+a:hover {
   text-decoration: none;
 }
 
@@ -421,5 +420,14 @@ footer img {
 
 footer h4 {
   color: white;
+}
+
+footer i {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+footer ul li a {
+  color: grey;
 }
 /* / footer */
