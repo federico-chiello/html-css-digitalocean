@@ -25,6 +25,28 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* widget */
+body .widget {
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  position: fixed;
+  bottom: 30px;
+  right: 100px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+body .widget img {
+  width: 55px;
+  background-color: #2787fd;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: -60px;
+}
+/* / widget */
+
 /* classi riutilizzabili */
 .ms_white {
   color: white;
